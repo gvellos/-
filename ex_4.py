@@ -1,6 +1,5 @@
 import random
 import matplotlib.pyplot as plt
-import numpy as np
 wc1=0
 wc2=0
 dc=0
@@ -66,8 +65,8 @@ fdc=0
 xartia = []
 templ=[]
 xarti=[]
-figures = ["J", "Q", "K"]
-xarti =[i for i in range(1, 11)]
+figures = ["J", "Q", "K","10"]
+xarti =[i for i in range(1, 10)]
 color = ["H", "S", "C", "D"]
 for i in xarti:
     for j in color:
@@ -99,8 +98,8 @@ while counter<=100:
         xartia = []
         templ=[]
         xarti=[]
-        figures = ["J", "Q", "K"]
-        xarti =[i for i in range(1, 11)]
+        figures = ["J", "Q", "K","10"]
+        xarti =[i for i in range(1, 10)]
         color = ["H", "S", "C", "D"]
         for i in xarti:
             for j in color:
@@ -132,8 +131,8 @@ while counter<=100:
     counter+=1
     xartia = []
     templ=[]
-    figures = ["J", "Q", "K"]
-    xarti =[i for i in range(1, 11)]
+    figures = ["J", "Q", "K","10"]
+    xarti =[i for i in range(1, 10)]
     color = ["H", "S", "C", "D"]
     for i in xarti:
         for j in color:
